@@ -304,31 +304,34 @@ color:#382539;
 	font-size: 65px;
 	margin-left: 385px;
 	margin-top: 100px;
-	color: 1E3021;
+	color: #1E3021;
+	opacity: 1;
 }
 .social li{
 	padding:10px;
 	display: inline;
+	//color:red;
 }
-.fa-facebook:hover{
-color:blue;
-	}	
-.fa-twitter:hover{
+.fa:hover{
+	color: #1E3021; 
+}
+	
+.fa-twitter{
 color:#6D84CF;	
 	}
-	.fa-google-plus:hover{
+	.fa-google-plus{
 		color:red;
 	}
-.fa-envelope:hover{
+.fa-envelope{
 color:#ED2D39;
 }
-.fa-linkedin:hover{
+.fa-linkedin{
 	color:white;
 }
-.fa-stack-overflow:hover{
+.fa-stack-overflow{
 	color:#ED732D;
 }
-.fa-github:hover {
+.fa-github{
 	color:#1E6997;
 }
 
@@ -394,8 +397,24 @@ list-style-position: outside;
 color:white;
 font-size: 20px;
 }
+hr{
+	margin:0px;
+	padding:0px;
+	position: relative;
+	top:30px;
+	color:black;
+	height:2px;
+	width:100%;
+	border:2px solid black;
+}
 .links{
 	margin-top: -10px;
 	margin-left: 5px;
 
+}
+.proj-title{
+	font-size: 40px;
+	font-weight: bold;
+	top:30px;
+	position: relative;
 }
