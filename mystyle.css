@@ -46,10 +46,7 @@ body {
     animation: bounce 2s infinite;
 }
 
-.about-motto {
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
+
 
 .about-block {
     clear: both;
@@ -193,16 +190,28 @@ header {
 
 .motto {
     /*font-family: "Oswald", sans-serif;*/
+ 
+}
+.main-heading{
     font-size: 32px;
     color: #42A5F5;
-    position: relative;
+    word-wrap: break-word;
+   
+    padding: 20px;
+   position: relative;
+   top:30px;
+   margin-bottom: 30px;
+}
+.about-motto {
+    
+border:2px solid red;
+  
+   height: auto;
     max-width: 100%;
-    padding-top: 10px;
-    padding-left: 20px;
+   display: inline-block;
     z-index: 10;
     text-align: center;
 }
-
 .projectdiv{
     padding:20px;
 }
@@ -471,8 +480,7 @@ max-width: 375px;
     position: relative;
     top:20px;
     max-width: 400px;
-    border:2px solid red;
-}
+    }
 .resume-heading{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -481,7 +489,7 @@ max-width: 375px;
     left:-30px;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 480px) {
     body{
         background-color: black;
     }
@@ -514,7 +522,7 @@ visibility: hidden;
     border: 2px solid green;
 }
 .arrowdiv{
-    left:46%;
+    left:43%;
 }
 }
 
