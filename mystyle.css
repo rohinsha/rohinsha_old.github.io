@@ -293,13 +293,6 @@ padding:20px;
 }
 .col-contact{
 padding:20px;}
-.social {
-    font-size: 60px;
-   // margin-left: 385px;
-    //margin-top: 100px;
-    color: #1E3021;
-    opacity: 0.7;
-}
 .para-contact{
     font-size: 20px;
     //border: 2px solid red;
@@ -311,11 +304,6 @@ padding:20px;}
     color:#1976D2;
 }
 
-.social li {
-    padding: 10px;
-    display: inline;
-    //color:red;
-}
 .fa:hover {
     color: #1E3021;
 }
@@ -460,11 +448,38 @@ hr {
 	background-color: #37474F;
     height:100px;
 }
-.social-icons{
-position: relative;
-left:38px;
+.social li {
+    padding: 5px;
+    display: inline;
+    //color:red;
 }
-@media screen and (max-width: 420px) {
+.social {
+    font-size: 40px;
+max-width: 375px;
+
+ 
+    color: #1E3021;
+    opacity: 0.7;
+}
+
+.social-icons{
+}
+.resume-div{
+    margin: 0px auto !important;
+    display: block !important;
+    padding:0px !important;
+    position: relative;
+    top:20px;
+}
+.resume-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    position: relative;
+    left:-15px;
+}
+
+@media screen and (max-width: 440px) {
     body{
         background-color: black;
     }
@@ -477,20 +492,10 @@ visibility: hidden;
  top:45px;
  padding-left: 10px;
 }
-.resume-heading{
+.para-contact{
+    padding:10px;
+}
 
-font-size: 20px;
-position: relative;
-left:5px;
-top:30px;
-}
-.social-icons{
-    position: relative;
-    left:10px;
-}
-.social{
-    font-size: 40px;
-}
 .arrowdiv{
     left:46%;
 }
