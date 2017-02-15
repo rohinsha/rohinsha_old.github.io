@@ -514,12 +514,10 @@ visibility: hidden;
 }
 .resume-div{
     max-width: 300px;
-    border:2px solid black;
 }
 .social{
     font-size: 25px;
     max-width:262px;
-    border: 2px solid green;
 }
 .arrowdiv{
     left:43%;
