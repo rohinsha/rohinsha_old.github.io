@@ -463,7 +463,7 @@ hr {
 position: relative;
 left:38px;
 }
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 450px) {
     body{
         background-color: black;
     }
