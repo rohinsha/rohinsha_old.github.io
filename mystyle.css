@@ -464,7 +464,7 @@ hr {
 position: relative;
 left:38px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 380px) {
     body{
         background-color: black;
     }
@@ -481,7 +481,7 @@ visibility: hidden;
 
 font-size: 20px;
 position: relative;
-left:15px;
+left:5px;
 top:30px;
 }
 .social-icons{
