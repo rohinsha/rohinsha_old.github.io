@@ -210,11 +210,12 @@ header {
 
 .projname {
     margin: 0px;
-    padding-top: 15px;
+    padding:20px;
     font-family: "Alegreya Sans", sans-serif;
     //font-weight: bold;
     font-size: 20px;
     color: black;
+
 }
 
 .two {
@@ -297,7 +298,7 @@ padding:20px;}
    // margin-left: 385px;
     //margin-top: 100px;
     color: #1E3021;
-    opacity: 1;
+    opacity: 0.7;
 }
 .para-contact{
     font-size: 20px;
@@ -463,7 +464,7 @@ hr {
 position: relative;
 left:38px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
     body{
         background-color: black;
     }
@@ -480,12 +481,18 @@ visibility: hidden;
 
 font-size: 20px;
 position: relative;
-left:-40px;
+left:15px;
 top:30px;
 }
 .social-icons{
     position: relative;
     left:10px;
+}
+.social{
+    font-size: 40px;
+}
+.arrowdiv{
+    left:46%;
 }
 }
 
