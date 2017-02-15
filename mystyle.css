@@ -479,7 +479,7 @@ max-width: 375px;
     left:-15px;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
     body{
         background-color: black;
     }
@@ -492,10 +492,19 @@ visibility: hidden;
  top:45px;
  padding-left: 10px;
 }
+.links-first-block{
+    padding-bottom: 20px;
+}
 .para-contact{
     padding:10px;
 }
-
+.resume-heading{
+    left:-20px;
+    position: relative;
+}
+.social{
+    font-size: 25px;
+}
 .arrowdiv{
     left:46%;
 }
