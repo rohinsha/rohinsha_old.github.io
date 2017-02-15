@@ -470,13 +470,15 @@ max-width: 375px;
     padding:0px !important;
     position: relative;
     top:20px;
+    max-width: 400px;
+    border:2px solid red;
 }
 .resume-heading{
     padding-top: 10px;
     padding-bottom: 10px;
     margin:0px;
     position: relative;
-    left:-15px;
+    left:-30px;
 }
 
 @media screen and (max-width: 440px) {
@@ -499,11 +501,17 @@ visibility: hidden;
     padding:10px;
 }
 .resume-heading{
-    left:-30px !important;
-    position: relative;
+    font-size: 20px;
+    left:-44px;
+}
+.resume-div{
+    max-width: 300px;
+    border:2px solid black;
 }
 .social{
-    font-size: 20px;
+    font-size: 25px;
+    max-width:262px;
+    border: 2px solid green;
 }
 .arrowdiv{
     left:46%;
