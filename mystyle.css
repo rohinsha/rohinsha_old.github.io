@@ -195,7 +195,7 @@ header {
 .main-heading{
     font-size: 32px;
     color: #42A5F5;
-    word-wrap: break-word;
+   text-align: center;
    
     padding: 20px;
    position: relative;
