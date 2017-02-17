@@ -94,7 +94,8 @@ body {
     font-size: 18px;
     color: #fff;
 text-align: justify;
- word-break: break-all;
+
+ text-justify:inter-word;
 
 }
 
@@ -520,7 +521,11 @@ visibility: hidden;
     left:43%;
 }
 
-
+.homepara{
+   text-align:justify;
+   word-break:keep-all;
+   word-spacing: 0.2rem;
+}
 
 
 }
